@@ -47,7 +47,7 @@ body#page--index { // Component
 			left: 0;
 			margin: auto;
 			border-radius: 8px;
-			background: url(./assets/images/index/img-visual.jpg) no-repeat center center;
+			background: url(../images/index/img-visual.jpg) no-repeat center center;
 			background-size: cover;
 			z-index: -1;
 			box-shadow: 0 10px 40px rgba(0, 0, 0, .1);
@@ -194,7 +194,7 @@ body#page--index { // Component
 				display: block;
 				width: 644px;
 				height: 597px;
-				background: url(./assets/images/index/img-slide.png) no-repeat center center;
+				background: url(../images/index/img-slide.png) no-repeat center center;
 				position: absolute;
 				top: 0;
 				left: 20%;
@@ -353,7 +353,7 @@ body#page--index { // Component
 		.company-image {
 			width: 50%;
 			overflow: hidden;
-			background: url(./assets/images/index/img-company.jpg) no-repeat center center;
+			background: url(../images/index/img-company.jpg) no-repeat center center;
 			background-size: cover;
 		}
 		.company-detail {

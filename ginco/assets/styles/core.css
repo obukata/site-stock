@@ -351,7 +351,7 @@ html[lang="en"] {
 
 .page-wrap {
   font-size: 1.3rem;
-  background: url(./assets/images/common/decoration_top.png) no-repeat left top;
+  background: url(../images/common/decoration_top.png) no-repeat left top;
   background-size: 56%;
   height: 2000px; }
 
@@ -558,7 +558,7 @@ html[lang="en"] {
       position: absolute;
       top: -27px;
       left: -23px;
-      background: url(./assets/images/common/icon-title.png) no-repeat;
+      background: url(../images/common/icon-title.png) no-repeat;
       background-size: 100% auto; }
 
 .word:nth-child(3n-2) .char:nth-child(5n-4) {
@@ -699,7 +699,7 @@ body#page--index .visual {
     left: 0;
     margin: auto;
     border-radius: 8px;
-    background: url(./assets/images/index/img-visual.jpg) no-repeat center center;
+    background: url(../images/index/img-visual.jpg) no-repeat center center;
     background-size: cover;
     z-index: -1;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1); }
@@ -801,7 +801,7 @@ body#page--index .intro {
       display: block;
       width: 644px;
       height: 597px;
-      background: url(./assets/images/index/img-slide.png) no-repeat center center;
+      background: url(../images/index/img-slide.png) no-repeat center center;
       position: absolute;
       top: 0;
       left: 20%;
@@ -922,7 +922,7 @@ body#page--index .company {
   body#page--index .company .company-image {
     width: 50%;
     overflow: hidden;
-    background: url(./assets/images/index/img-company.jpg) no-repeat center center;
+    background: url(../images/index/img-company.jpg) no-repeat center center;
     background-size: cover; }
   body#page--index .company .company-detail {
     width: calc(50% - 30px); }
