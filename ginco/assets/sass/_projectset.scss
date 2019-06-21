@@ -1,0 +1,64 @@
+// Project Settings
+@import "util/baseset";
+
+//* ==================================================
+//	FontSet
+//================================================== */
+@mixin fontset_html_ja {
+  font-size: 62.5%; // = 10px = 1rem
+	font-family: $fontSansJa;
+  line-height: 1.6;
+}
+
+@mixin fontset_body_ja {
+	font-size: 14px;
+	font-size: 1.4em; // = 14px
+	// if you use 'rem' bug occurred in chrome
+}
+
+@mixin fontset_html_en {
+  font-size: 62.5%; // = 10px = 1rem
+	font-family: $fontSansEn;
+  line-height: 1.6;
+}
+
+@mixin fontset_body_en {
+	font-size: 14px;
+	font-size: 1.4em; // = 12px
+	// if you use 'rem' bug occurred in chrome
+}
+
+
+//* ==================================================
+//	Contents Width
+//================================================== */
+$InnerMinWidth_op: 1239px;
+$InnerMinWidth: 999px;
+$InnerMaxWidth_tb: 768px;
+$InnerMaxWidth_sp: 414px;
+$InnerMinWidth_sp: 320px;
+
+
+//* ==================================================
+//	Color Scheme
+//================================================== */
+$white: #ffffff;
+$black: #3c3a3a;
+$gray: #f2f2f2;
+$darkgray: #666666;
+$blue: #2c78f5;
+
+
+$pastelBlue: #44A5CB;
+$pastelGreen: #44BF5F;
+$pastelYellow: #F6D158;
+$pastelRed: #E06B61;
+$pastelPurple: #9D73BB;
+
+//* ==================================================
+//	trantion
+//================================================== */
+$fast: 200ms;
+$middle: 400ms;
+$slow: 1000ms;
+$superslow: 2000ms;
