@@ -69,7 +69,6 @@ html[lang="en"] {
 
 .page-wrap {
 	font-size: 1.3rem;
-	background: url(../images/common/decoration_top.png) no-repeat left top;
 	background-size: 56%;
 	height: 2000px;
 }
@@ -168,7 +167,7 @@ html[lang="en"] {
 		}
 	}
 	.footer-body {
-		padding-bottom: 60px;
+		padding: 60px 0;
 		background: #2b7df5;
 	}
 	.footer-logo {
